@@ -3,7 +3,7 @@
 import urllib2
 import json
 
-locu_api = '1281b59f7ecdbc943bf07f1d35bc9fd08fef6f80'
+locu_api = str(raw_input('your apikey: '))
 
 def locu_search(query):
 	api_key = locu_api
